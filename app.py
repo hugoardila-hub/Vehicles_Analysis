@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv('./Notebooks/vehicles_us.csv')
 
 
 hist_button = st.button('Construir histograma')
